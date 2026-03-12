@@ -2,9 +2,9 @@
 
 ## HTTP Server in C
 
-Here is a small http library in C on Unix; it is effectively just a simplified wrapper for \<netinet/in.h\> and \<sys/socket.h\>
+Here is a small http library in C on Unix; it is effectively just a wrapper for \<netinet/in.h\> and \<sys/socket.h\>
 
-The fileserver/ directory contains a file server implementation using the library; it treats http requests as file paths and returns the file if found.
+The fileserver/ directory contains an example file server implementation using the library; it treats http requests as file paths and returns the file if found.
 
 To compile and run it:
 ```
