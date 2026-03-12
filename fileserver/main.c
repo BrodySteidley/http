@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 			       "\t-p / --port <port number> specify the server's port, by default it is %d.\n"
 			       "\t-c / --content <path to content folder> specify the path to the server content, by default it is %s.\n",
 			       DEFAULT_PORT, DEFAULT_SERVER_CONTENT_PATH);
-			return 0;
+			return EXIT_SUCCESS;
 		}
 		else if (!strcmp(argv[i], "-p") || !strcmp(argv[i], "--port"))
 		{
